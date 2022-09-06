@@ -8,4 +8,8 @@ The Software aims at optimizing the primer sequence on the basis of the followin
                 DNA strand.
 -> Secondary Structure Formation : In order to efficiently avoid the formation of the unwanted secondary structures we must ensure
                                    there are no Palindromic Complementary sequences in the primer besides repeating nucleotides must
-                                   be avoided 
+                                   be avoided as they may lead to self-dimerization.
+                                   
+                                   
+ INPUT: The input will consist of the sequence of nucleotides of the gene that needs to be copied using PCR.
+ OUTPUT: The output will consist of the most optimized forward and reverse primer sequence on the basis of the above factors.
