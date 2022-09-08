@@ -27,8 +27,8 @@ Development Phase 2 : The software would design both the forward and the reverse
 Development Phase 3 : The software would design sequences based on Protein sequences and mRNA sequences besides the DNA sequence.
  
 Current Limitations :
-                      -> We are trying to accurately estimate the correct number of complementary nucleotides needed to anneal a primer sequence of a specific length to the DNA. This number if precisely determined would greatly help in further optimization and prevention of secondary structure formation.
+-> Trying to accurately estimate the correct number of complementary nucleotides needed to anneal a primer sequence of a specific length to the DNA. This number if precisely determined would greatly help in further optimization and prevention of secondary structure formation.
  
-                      -> We are considering the possibility of inducing silent mutations to our sequence in order to optimize the primer functionality especially in the phase of development when we will design primer sequences from RNA and Protein Sequences.
+-> Considering the possibility of inducing silent mutations to our sequence in order to optimize the primer functionality especially in the phase of development when we will design primer sequences from RNA and Protein Sequences.
                       
-                      -> We are also trying to optimize the sequences by shifting bases in the intron sequences as that would not have any effect on the reading frames for the exon sequences and can be a new method of optimization as the code often does not produce optimized sequences within the Temperature and G/C content range. 
+-> Trying to optimize the sequences by shifting bases in the intron sequences as that would not have any effect on the reading frames for the exon sequences and can be a new method of optimization as the code often does not produce optimized sequences within the Temperature and G/C content range. 
