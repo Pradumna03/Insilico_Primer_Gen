@@ -1,4 +1,4 @@
-# PCR_Primer_Designer
+# INSILICO_PCR_Primer_Designer
 The Software aims at optimizing the primer sequence on the basis of the following four factors:
 
 -> Length : The length of the primer is kept between 18-30 nucleotides to maintain proper specificity and avoid self-dimerization or non-specific annealing to common stretches of nucleotide sequences.
