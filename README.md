@@ -9,13 +9,13 @@ The length of the primer is kept between 18-30 nucleotides to maintain proper sp
 
 The temperature for annealing needs to be similar for the forward and the reverse primer sequences with no more than a 5 degree celcius difference between the two. The allowed temperature range is from 55-65 degree celcius.
 
-                                                                 Tm=81.5+0.41(%GC)−675/N−%mismatch
+                                                              Tm=81.5+0.41(%GC)−675/N−%mismatch
                                                    
-                                                                  N = Number of Nucleotides,
+                                                              N = Number of Nucleotides,
                                                    
-                                                                  %GC = %GC content.
+                                                              %GC = %GC content.
                                                    
-                                      This is the formula we are using to determine the melting temperature for our primer design.
+                                 This is the formula we are using to determine the melting temperature for our primer design.
                  
 -> GC Content : 
 
