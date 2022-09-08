@@ -1,4 +1,4 @@
-# INSILICO_PCR_Primer_Designer
+# INSILICO_PRIMER_GEN
 The Software aims at optimizing the primer sequence on the basis of the following four factors:
 
 -> Length : The length of the primer is kept between 18-30 nucleotides to maintain proper specificity and avoid self-dimerization or non-specific annealing to common stretches of nucleotide sequences.
@@ -14,6 +14,16 @@ The Software aims at optimizing the primer sequence on the basis of the followin
                          
 -> Secondary Structure Formation : In order to efficiently avoid the formation of the unwanted secondary structures we must ensure there are no Palindromic Complementary sequences in the primer besides repeating nucleotides must be avoided as they may lead to self-dimerization.
                                                                  
- INPUT: The input will consist of the sequence of nucleotides of the gene that needs to be copied using PCR.
+ INPUT: -> The input will consist of the sequence of nucleotides of the gene that needs to be copied using PCR.
+        -> Allowed Temperature Range
+        -> Allowed G/C Content Range
  
- OUTPUT: The output will consist of the most optimized forward and reverse primer sequence on the basis of the above factors.
+ OUTPUT: The output will consist of the most optimized primer sequence on the basis of the above factors.
+ 
+ Development Phase 2 : The software would design both the forward and the reverse primer together to prevent palindromic complementaraity between them and prevent their annealing.
+ 
+ Development Phase 3 : The software would design sequences based on Protein sequences and mRNA sequences besides the DNA sequence.
+ 
+ Current Limitations: -> We are trying to accurately estimate the correct number of complementary nucleotides needed to anneal a primer sequence of a specific length to the DNA. This number if precisely determined would greatly help in further optimization and prevention of secondary structure formation.
+                      -> We are considering the possibility of inducing silent mutations to our sequence in order to optimize the primer functionality especially in the phase of development when we will design primer sequences from RNA and Protein Sequences.
+                      -> We are also trying to optimize the sequences by shifting bases in the intron sequences as that would not have any effect on the reading frames for the exon sequences and can be a new method of optimization as the code often does not produce optimized sequences within the Temperature and G/C content range. 
